@@ -2,10 +2,9 @@
 
 **A two-deck DJ mixing application built in C++ with the JUCE framework.**
 
-<!-- TODO: add a screenshot of the running app, saved as Screenshots/app.png -->
-![OtoDecks](Screenshots/app.png)
+<img width="1593" height="681" alt="Otodecks DJ UI" src="https://github.com/user-attachments/assets/57c4bce0-2a0a-479b-a3bb-1350a155ee39" />
 
-> Built on a course starter project (Object-Oriented Programming module). The starter provided the basic player, deck and waveform classes. My contributions are listed below.
+Built on a course starter project (Object Oriented Programming module). The starter provided the basic player, deck and waveform classes. My contributions are listed below.
 
 ## Features
 
@@ -13,7 +12,7 @@
 - Waveform display with a moving playhead
 - Elapsed and total time display with a progress bar
 - Drag and drop audio files onto a deck or into the playlist
-- Playlist library with per-track buttons to load a song onto either deck
+- Playlist library with track buttons to load a song onto either deck
 - Live search to filter the playlist
 - Playlist saved between sessions
 - Track durations read from the audio file
@@ -21,7 +20,7 @@
 
 ## My contributions
 
-- **Playlist library:** `PlaylistComponent` with drag-and-drop import, track durations, and load-to-deck buttons
+- **Playlist library:** `PlaylistComponent` with drag and drop import, track durations, and load to deck buttons
 - **Live search:** filters the playlist as you type
 - **Persistence:** playlist is saved to the user's app data folder and reloaded on launch
 - **Deck interface:** themed layout, elapsed/total time, progress bar, track title
@@ -47,13 +46,13 @@
 | `DJAudioPlayer` | Loads audio, plays it, and controls gain, speed, and position |
 | `DeckGUI` | Controls and display for one deck |
 | `WaveformDisplay` | Draws the waveform and playhead |
-| `PlaylistComponent` | Track library with search, save/load, and load-to-deck buttons |
+| `PlaylistComponent` | Track library with search, save/load, and load to deck buttons |
 
 ## Building
 
 **Requirements**
-- [JUCE](https://juce.com/) (TODO: write the version you used)
-- Visual Studio (TODO: write your version)
+- [JUCE](https://juce.com/)
+- Visual Studio
 
 **Steps**
 1. Open `OtoDecks.jucer` in Projucer.
