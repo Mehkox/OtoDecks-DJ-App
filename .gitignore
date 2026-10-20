@@ -1,0 +1,15 @@
+# JUCE generated folders (Projucer recreates these)
+Builds/
+JuceLibraryCode/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+x64/
+Debug/
+Release/
+
+# macOS
+.DS_Store
+__MACOSX/
